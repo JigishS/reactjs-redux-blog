@@ -5,6 +5,6 @@ export const fetchPosts = () => async (dispatch) => {
 
   dispatch({
     type: "FETCH_POST",
-    payload: response,
+    payload: response.data,
   });
 };
