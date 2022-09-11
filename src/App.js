@@ -1,5 +1,6 @@
 import "./App.css";
 import PostList from "./components/PostList";
+import "./assets/App.css";
 
 const App = () => {
   return (
